@@ -52,6 +52,11 @@ tasks.withType(Test) {
     }
 }*/
 
+test {
+    useJUnitPlatform()
+}
+
+
 help {
     doFirst {
         println ""
